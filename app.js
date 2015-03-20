@@ -42,7 +42,7 @@ if (env == 'production') {
     console.log('Conectado al FTP y Bd de producción.');
     console.log(ftpConf);
 }
-global.warehouseId = "ocdfbkfpdfcd";
+global.warehouseId = "bpaibhcodhmn";
 global.db = global.db ? global.db : new sql.Connection(app.settings.dbConfig, function (err) {
     if (err) {
         console.log(err);
