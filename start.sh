@@ -1,5 +1,5 @@
 #!/bin/bash
-export PORT=3001
+export PORT=3002
 export NODE_ENV=production
 
 ./node_modules/forever/bin/forever \
