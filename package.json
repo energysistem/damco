@@ -1,0 +1,22 @@
+{
+    "name": "logiters",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node server.js",
+        "test": "make test"
+    },
+    "dependencies": {
+        "express": "4.x.x",
+        "mocha": "1.18.x",
+        "supertest": "0.10.x",
+        "should": "3.2.x",
+        "forever": "0.10.x",
+	"jsftp": "1.x.x",
+	"mssql": "1.1.x",
+	"body-parser": "1.x.x",
+	"morgan": "1.x.x",
+	"errorhandler": "1.x.x",
+	"mkdirp": "0.5.x"
+    }
+}

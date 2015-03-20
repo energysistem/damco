@@ -1,0 +1,6 @@
+node_modules/
+start-dev.sh
+*.log
+*.json
+*.txt
+files/
