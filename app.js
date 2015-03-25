@@ -31,6 +31,8 @@ if (env == 'development') {
     }));
     ftpConf = require('./ftpConfDev');
     app.set('ftpConf', ftpConf);
+    app.set('ftpIn', 'mailbox/');
+    app.set('ftpOut', '');
     app.set('dbConfig', require('./mssqlConfDev'));
     console.log('Conectado al FTP y Bd de desarrollo.');
     console.log(ftpConf);
@@ -38,6 +40,8 @@ if (env == 'development') {
 if (env == 'production') {
     ftpConf = require('./ftpConfProd');
     app.set('ftpConf', ftpConf);
+    app.set('ftpIn', 'in/');
+    app.set('ftpOut', 'out/');
     app.set('dbConfig', require('./mssqlConf'));
     console.log('Conectado al FTP y Bd de producción.');
     console.log(ftpConf);
